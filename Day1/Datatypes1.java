@@ -34,7 +34,7 @@ public class Datatypes1 {
         // Output with precision
         System.out.println("\n--- Data Types Output with Precision ---");
         System.out.println("Integer: " + n);
-        System.out.printf("Double: %.2f\n", var1);  // 2 decimal places
+        System.out.printf("Double: %.2f\n", var1);  
         System.out.printf("Float: %.2f\n", var2);   // 2 decimal places
         System.out.println("Long: " + n2);
         System.out.println("Character: " + k);
