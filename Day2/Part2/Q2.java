@@ -1,3 +1,4 @@
+//Write a program to take in 10 values and print only those numbers which are prime.
 import java.util.Scanner;
 
 public class Q2 {
