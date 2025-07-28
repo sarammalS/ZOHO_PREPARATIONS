@@ -1,3 +1,4 @@
+// Write a program which generates 30 terms of Fibonacci no in an array and then prints it.
 public class Q3{
     public static void main(String[] args) {
         int[] fib = new int[30];
