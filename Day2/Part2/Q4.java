@@ -1,4 +1,5 @@
-//Write a program which generates 30 terms of Fibonacci no in an array and then prints it.
+//4. Design a function void print( ) with a single dimensional array x[ ] and n (as size of the array) as function arguments. The function calculates sum of only single digit and sum of only double digit elements from the array. Design a main() function to input size of the array ‘len' and single dimensional array of size 'len', and print the required result by invoking the function print( ).
+
 import java.util.Scanner;
 
 public class Q4 {
