@@ -1,3 +1,4 @@
+//Write a program which generates 30 terms of Fibonacci no in an array and then prints it.
 import java.util.Scanner;
 
 public class Q4 {
