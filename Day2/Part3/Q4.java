@@ -31,3 +31,37 @@ public class Q4 {
         System.out.println(findDiff("", "y"));         // y
     }
 }
+
+/*import java.util.*;
+
+public class Q4 {
+    public static char findTheDifference(String s, String t) {
+        Map<Character, Integer> map = new HashMap<>();
+
+        // Count each character in s
+        for (char c : s.toCharArray()) {
+            map.put(c, map.getOrDefault(c, 0) + 1);
+        }
+
+        // Subtract counts using t
+        for (char c : t.toCharArray()) {
+            if (!map.containsKey(c) || map.get(c) == 0) {
+                return c; // This is the extra character
+            }
+            map.put(c, map.get(c) - 1);
+        }
+
+        return ' '; // Should never reach here
+    }
+
+    public static void main(String[] args) {
+        String s1 = "abcd";
+        String t1 = "abcde";
+        System.out.println("Extra letter: " + findTheDifference(s1, t1)); // Output: e
+
+        String s2 = "";
+        String t2 = "y";
+        System.out.println("Extra letter: " + findTheDifference(s2, t2)); // Output: y
+    }
+}
+*/
