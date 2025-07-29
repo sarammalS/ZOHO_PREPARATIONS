@@ -1,4 +1,5 @@
-public class Q5{
+/*
+5. Given two strings s and t, return true if s is a subsequence of t, or false otherwise.*/public class Q5{
     public static String addStr(String n1, String n2) {
         StringBuilder sb = new StringBuilder();
         int i = n1.length() - 1, j = n2.length() - 1, c = 0;
