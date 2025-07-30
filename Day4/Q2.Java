@@ -1,5 +1,5 @@
 /*
-. Construct a base class called twoD contains x and y and methods to read and write the x and y. Create another class called threeD which is derived from twoD and also contains z and write methods to read and write z. Also write a method to find the distance of two threeD Points.
+2. Construct a base class called twoD contains x and y and methods to read and write the x and y. Create another class called threeD which is derived from twoD and also contains z and write methods to read and write z. Also write a method to find the distance of two threeD Points.
 sqrt((x2-x1)^2+(y2-y1)^2+(z2-z1)^2)
 In main:
 Create one ThreeD object using the default constructor.
