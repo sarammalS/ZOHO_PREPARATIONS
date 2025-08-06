@@ -94,7 +94,6 @@ class SBI extends RBI {
         return 40000;
     }
 }
-
 // ICICI.java
 class ICICI extends RBI {
     public ICICI(Customer c, Account a) {
@@ -110,7 +109,7 @@ class ICICI extends RBI {
     }
 }
 
-// PNB.java
+
 class PNB extends RBI {
     public PNB(Customer c, Account a) {
         super(c, a);
@@ -125,8 +124,8 @@ class PNB extends RBI {
     }
 }
 
-// Main.java
-public class Main {
+
+public class Q1 {
     public static void main(String[] args) {
         Customer customer1 = new Customer("Sara", "9876543210", "sara@email.com");
         Account account1 = new Account(1234567890123456L, 50000);
