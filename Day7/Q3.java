@@ -54,7 +54,7 @@ class PartTimeEmployee implements Employee {
     }
 }
 
-public class Q3 {
+public class Q4{
     public static void main(String[] args) {
         Employee emp1 = new FullTimeEmployee("Alice", "FT101", 5000);
         Employee emp2 = new PartTimeEmployee("Bob", "PT202", 80, 25);
