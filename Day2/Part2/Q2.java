@@ -27,3 +27,20 @@ public class Q2 {
     }
 }
 
+// public static void sieveOfEratosthenes(int n) {
+//         // Step 1: Create a boolean array "prime[0..n]"
+//         boolean[] isPrime = new boolean[n + 1];
+//         Arrays.fill(isPrime, true); // Assume all numbers are prime initially
+
+//         isPrime[0] = false;
+//         isPrime[1] = false;
+
+//         // Step 2: Start from the first prime number (2)
+//         for (int p = 2; p * p <= n; p++) {
+//             // If isPrime[p] is still true, mark all its multiples as false
+//             if (isPrime[p]) {
+//                 for (int i = p * p; i <= n; i += p) {
+//                     isPrime[i] = false;
+//                 }
+//             }
+//         }
